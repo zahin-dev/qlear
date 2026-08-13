@@ -1,0 +1,17 @@
+{
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml",
+    "tsconfig.json": "next-env.d.ts"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/playwright-report": true,
+    "**/test-results": true,
+    "**/coverage": true,
+    "**/*.tsbuildinfo": true
+  }
+}
