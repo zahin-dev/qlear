@@ -11,6 +11,8 @@
 
   **English** | [日本語](./README.ja.md)
 
+  [🌐 **Live Demo**](https://qlear.vercel.app/)
+
   🎯 **3-Quest Focus** · 🤖 **AI-assisted Planning** · 💾 **Local-first**
 </div>
 
@@ -20,7 +22,7 @@ QLEAR is a goal attack / quest productivity app. It turns one large personal goa
 
 The idea came from a small but memorable moment: checking the last item on a paper ToDo list, then crumpling the page, felt genuinely satisfying. Most digital task apps preserve the checkbox but lose that sense of closure. QLEAR explores how to bring it back through a deliberate Digital Crumple interaction, visible progress, and lightweight rewards.
 
-QLEAR is currently a portfolio project built for personal local use. It does not require an account, has no cloud sync, and has no public live demo.
+QLEAR is currently a portfolio project built for personal use with a public Vercel demo. It requires no account or cloud sync, and core data remains local to each visitor's browser.
 
 ## 🖼 Preview
 
@@ -82,6 +84,8 @@ QLEAR is currently a portfolio project built for personal local use. It does not
 
 > [!NOTE]
 > QLEAR uses the deterministic mock planner by default. The OpenAI integration is optional and currently powers initial planning only; replanning, smaller-step alternatives, and daily review still use deterministic or local logic.
+>
+> The public Vercel demo currently runs with `AI_PROVIDER=mock`, so it does not call the OpenAI API or require an API key.
 
 QLEAR defaults to a deterministic mock planner, so local development and the complete core flow work without an API key. The repository also includes a server-only OpenAI provider for initial goal planning through the OpenAI Responses API.
 
@@ -132,6 +136,7 @@ Completion is committed transactionally before the visual sequence begins: quest
 | Persistence | Dexie 4 over browser IndexedDB |
 | AI | Deterministic mock planner; optional server-only OpenAI provider and Responses API integration |
 | Testing | Vitest, Testing Library, fake-indexeddb, Playwright |
+| Deployment | Vercel |
 | Tooling | pnpm, ESLint, PostCSS |
 
 ## 🚀 Getting Started
