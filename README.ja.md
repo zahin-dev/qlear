@@ -11,6 +11,8 @@
 
   [English](./README.md) | **日本語**
 
+  [🌐 **Live Demo**](https://qlear.vercel.app/)
+
   🎯 **3つのQuestに集中** · 🤖 **AIによる計画支援** · 💾 **ローカルファースト**
 </div>
 
@@ -20,7 +22,7 @@ QLEARは、大きな個人目標を攻略するためのQuest型生産性アプ�
 
 原点にあるのは、紙のToDoリストで最後の項目にチェックを入れ、その紙を丸めたときの心地よさです。多くのデジタルToDoアプリにはチェックボックスはあっても、仕事を終えた実感までは残りにくい。QLEARは、Digital Crumpleという完了演出、目に見える進捗、小さな報酬を通して、その感覚をデジタルに取り戻そうとしています。
 
-現在のQLEARは、個人のローカル利用を想定したポートフォリオプロジェクトです。アカウント、クラウド同期、公開中のライブデモはありません。
+現在のQLEARは個人利用を前提にしたポートフォリオプロジェクトで、Vercel上に公開デモがあります。アカウントやクラウド同期は不要で、主要データは各利用者のブラウザ内に保存されます。
 
 ## 🖼 プレビュー
 
@@ -82,6 +84,8 @@ QLEARは、大きな個人目標を攻略するためのQuest型生産性アプ�
 
 > [!NOTE]
 > QLEARは既定でDeterministic Mock Plannerを使用します。OpenAI連携は任意で、現在は初回Planningのみを担当します。Replan、より小さな代替案、Daily Reviewは決定的またはローカルな処理です。
+>
+> 公開中のVercelデモは現在 `AI_PROVIDER=mock` で動作しており、OpenAI APIの呼び出しやAPI Keyを必要としません。
 
 QLEARは、既定で決定的なMock Plannerを使用します。そのため、API Keyがなくてもローカル開発と主要フロー全体を利用できます。加えて、初回のGoal Planningには、OpenAI Responses APIを呼び出すServer-onlyのOpenAI Providerも実装されています。
 
@@ -132,6 +136,7 @@ flowchart TD
 | Persistence | Browser IndexedDB上のDexie 4 |
 | AI | Deterministic Mock Planner、任意のServer-only OpenAI Provider、Responses API連携 |
 | Testing | Vitest、Testing Library、fake-indexeddb、Playwright |
+| Deployment / Hosting | Vercel |
 | Tooling | pnpm、ESLint、PostCSS |
 
 ## 🚀 はじめ方

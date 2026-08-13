@@ -85,7 +85,7 @@ test.describe("Landing vertical slide deck", () => {
 
     const logo = page.locator(".logo").first();
     const logoImage = logo.locator(".logo__image");
-    await expect(logoImage).toHaveAttribute("src", "/qlear-logo.png");
+    await expect(logoImage).toHaveAttribute("src", /^\/qlear-logo\.png(?:\?.*)?$/);
     expect(await logo.evaluate((element) => ({
       background: getComputedStyle(element).backgroundColor,
       boxShadow: getComputedStyle(element).boxShadow,
@@ -122,6 +122,7 @@ test.describe("Landing vertical slide deck", () => {
     const errors = failOnConsole(page);
     await page.setViewportSize({ width: 1440, height: 760 });
     await page.goto("/");
+    await expect(page.locator("[data-landing-slide]").first()).toHaveAttribute("aria-hidden", "false");
 
     await page.keyboard.press("ArrowDown");
     await page.keyboard.press("PageDown");
