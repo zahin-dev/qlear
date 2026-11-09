@@ -3,183 +3,181 @@
 
   # QLEAR
 
-  **Turn big goals into three things you can finish today.**
+  **大きな目標を、今日終えられる3つの行動へ。**
 
-  **AI breaks it down. You clear it.**
+  **AIが分ける。あなたが終わらせる。**
 
-  Portfolio project · Personal-use first · Local-first
+  ポートフォリオプロジェクト · 個人利用を優先 · ローカルファースト
 
-  **English** | [日本語](./README.ja.md)
+  [🌐 **公開デモ**](https://qlear.vercel.app/)
 
-  [🌐 **Live Demo**](https://qlear.vercel.app/)
-
-  🎯 **3-Quest Focus** · 🤖 **AI-assisted Planning** · 💾 **Local-first**
+  🎯 **3つのクエストに集中** · 🤖 **AIによる計画支援** · 💾 **ローカルファースト**
 </div>
 
 <p align="center">
-  <a href="#development">Development and availability</a> ·
-  <a href="#screenshots">Preview</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#quickstart">Getting Started</a>
+  <a href="#development">開発・公開状況</a> ·
+  <a href="#screenshots">プレビュー</a> ·
+  <a href="#features">機能</a> ·
+  <a href="#quickstart">はじめ方</a>
 </p>
 
 ---
 
 <a id="development"></a>
 
-## Development and availability
+## 開発・公開状況
 
-| Milestone | Details |
+| 項目 | 内容 |
 | --- | --- |
-| Development started | April 2025 |
-| MVP completed | June 2025 |
-| Current status | Development stopped |
-| First GitHub publication | August 2026 |
-| Live demo | [Open QLEAR](https://qlear.vercel.app/) |
+| 開発開始 | 2025年4月 |
+| MVP完成 | 2025年6月 |
+| 現在の状況 | 開発停止 |
+| GitHub初回公開 | 2026年8月 |
+| 公開デモ | [QLEARを開く](https://qlear.vercel.app/) |
 
-## 👾 What is QLEAR?
+## 👾 QLEARとは
 
-QLEAR is a goal attack / quest productivity app. It turns one large personal goal into an editable three-quest route, helps you focus on one quest at a time, and makes every completion visibly reduce the goal through Boss damage.
+QLEARは、大きな個人目標を攻略するためのクエスト形式の目標管理アプリです。1つの目標を編集可能な3つのクエストへ変換し、一度に1つへ集中できる状態をつくり、完了するたびにボスへダメージを与えて進捗を見える形にします。
 
-The idea came from a small but memorable moment: checking the last item on a paper ToDo list, then crumpling the page, felt genuinely satisfying. Most digital task apps preserve the checkbox but lose that sense of closure. QLEAR explores how to bring it back through a deliberate Digital Crumple interaction, visible progress, and lightweight rewards.
+原点にあるのは、紙のToDoリストで最後の項目にチェックを入れ、その紙を丸めたときの心地よさです。多くのデジタルToDoアプリにはチェックボックスはあっても、仕事を終えた実感までは残りにくい。QLEARは、紙を丸める動きを取り入れた完了演出、目に見える進捗、小さな報酬を通して、その感覚をデジタルに取り戻そうとしています。
 
-QLEAR is currently a portfolio project built for personal use with a public Vercel demo. It requires no account or cloud sync, and core data remains local to each visitor's browser.
+現在のQLEARは個人利用を前提にしたポートフォリオプロジェクトで、Vercel上に公開デモがあります。アカウントやクラウド同期は不要で、主要データは各利用者のブラウザ内に保存されます。
 
 <a id="screenshots"></a>
 
-## 🖼 Preview
+## 🖼 プレビュー
 
 <table>
   <tr>
     <td width="50%">
-      <img src="./docs/assets/readme/landing.png" alt="QLEAR landing page" />
-      <br /><sub><strong>Landing</strong> — the product promise and three-quest concept.</sub>
+      <img src="./docs/assets/readme/landing.png" alt="QLEARのランディングページ" />
+      <br /><sub><strong>トップページ</strong> — プロダクトの価値と3つのクエストの考え方。</sub>
     </td>
     <td width="50%">
-      <img src="./docs/assets/readme/dashboard.png" alt="QLEAR Command Center dashboard" />
-      <br /><sub><strong>Command Center</strong> — Boss HP, tactical status, and the active route.</sub>
+      <img src="./docs/assets/readme/dashboard.png" alt="QLEARの進捗ダッシュボード" />
+      <br /><sub><strong>進捗ダッシュボード</strong> — ボスのHP、戦術情報、現在の攻略ルート。</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="./docs/assets/readme/smash.png" alt="QLEAR Digital Crumple completion screen" />
-      <br /><sub><strong>Smash / Clear</strong> — completion becomes damage, XP, combo, and a possible title unlock.</sub>
+      <img src="./docs/assets/readme/smash.png" alt="QLEARの完了演出の画面" />
+      <br /><sub><strong>集中・完了画面</strong> — 完了をダメージ、経験値、コンボ、称号の獲得につながります。</sub>
     </td>
     <td width="50%">
-      <img src="./docs/assets/readme/review.png" alt="QLEAR daily review report" />
-      <br /><sub><strong>Review</strong> — daily metrics, the next action, completion history, and title archive.</sub>
+      <img src="./docs/assets/readme/review.png" alt="QLEARのデイリーレビュー画面" />
+      <br /><sub><strong>振り返り</strong> — 今日の数値、次の行動、完了履歴、称号一覧。</sub>
     </td>
   </tr>
 </table>
 
-## ✨ Why QLEAR
+## ✨ なぜQLEARなのか
 
-- **Completion should feel good.** CLEAR is treated as a designed interaction, not only a status change.
-- **One thing at a time.** Smash Mode removes the noise around the current quest.
-- **Three quests, not an endless backlog.** Generated and replanned routes contain exactly three editable quests.
-- **Progress should be visible.** Difficulty maps to damage, and every CLEAR reduces Boss HP.
-- **Local-first should be practical.** Core data lives in the browser and can be exported or restored as validated JSON.
-- **AI should stay behind the work.** Planning appears as structured quests, estimates, and reasoning rather than a chat window.
+- **完了そのものが気持ちよくあるべき。** 完了を単なる状態変更ではなく、設計された体験として扱います。
+- **一度に取り組むのは1つ。** 集中モードでは、現在のクエスト以外のノイズを抑えます。
+- **終わりのない一覧ではなく3つのクエスト。** 生成・再計画されるルートは、必ず編集可能な3件で構成されます。
+- **進捗を目で確認できる。** 難易度がダメージへ反映され、完了のたびにボスのHPが減ります。
+- **実用的なローカルファースト。** 主要データをブラウザ内に保存し、検証済みJSONとして書き出し・復元できます。
+- **AIは作業の裏側に置く。** チャット画面ではなく、クエスト、見積もり、提案理由という形で計画を返します。
 
 <a id="features"></a>
 
-## 🎯 Features
+## 🎯 機能
 
-### Planning
+### 計画
 
-- Goal setup with optional target date, daily time budget, and energy level
-- Default mock planning that deterministically produces exactly three editable quests
-- Scope, difficulty, time estimate, priority, damage, schedule, and optional subquest planning
+- 目標、任意の期限、1日の作業時間、余力を入力する目標設定
+- 既定の模擬プランナーによる、再現可能で編集可能な3つのクエストの生成
+- 作業範囲、難易度、所要時間、優先度、ダメージ、日程、任意のサブクエストの計画
 
-### Execution
+### 実行
 
-- Command Center with Boss HP, recommended quest, daily damage, and combo status
-- Quest Board with `READY`, `IN_PROGRESS`, and `CLEARED` states plus full quest editing
-- Smash Mode with up to three active candidates, smaller-step alternatives, and undo
-- Digital Crumple completion sequence with Boss damage, XP, session combo, levels, and cosmetic titles
+- ボスのHP、おすすめクエスト、今日のダメージ、コンボを表示する進捗ダッシュボード
+- `READY`、`IN_PROGRESS`、`CLEARED`の状態管理と詳細編集に対応したクエスト一覧
+- 最大3件から選択できる集中モード、より小さな別ルート提案、変更の取り消し
+- ボスへのダメージ、経験値、セッション内コンボ、レベル、条件付きの称号獲得を伴う紙を丸める完了演出
 
-### Progress & Data
+### 進捗とデータ
 
-- Daily review metrics, completion history, next-action guidance, and title archive
-- Local persistence through Dexie and IndexedDB, including validated JSON export/import and reset controls
-- Animation and reduced-effects settings
-- Pixel-art-inspired dark interface with Japanese bitmap typography
+- 今日の集計、次の行動、完了履歴、称号一覧を確認できる振り返り画面
+- Dexie / IndexedDBによるローカル保存、検証付きのJSON読み込み・書き出し、初期化
+- アニメーションや演出を抑える設定
+- 日本語のビットマップフォントを使った、ピクセルアート調のダークUI
 
-### 🤖 Current AI Behavior
+### 🤖 現在のAIの動作
 
 > [!NOTE]
-> QLEAR uses the deterministic mock planner by default. The OpenAI integration is optional and currently powers initial planning only; replanning, smaller-step alternatives, and daily review still use deterministic or local logic.
+> QLEARは既定で同じ入力に同じ結果を返す模擬プランナーを使用します。OpenAI連携は任意で、現在は初回計画のみを担当します。再計画とより小さな代替案には模擬プランナーを使い、日次の振り返りはブラウザ内で集計します。
 >
-> The public Vercel demo currently runs with `AI_PROVIDER=mock`, so it does not call the OpenAI API or require an API key.
+> 公開中のVercelデモは現在 `AI_PROVIDER=mock` で動作しており、OpenAI APIの呼び出しやAPIキーを必要としません。
 
-QLEAR defaults to a deterministic mock planner, so local development and the complete core flow work without an API key. The repository also includes a server-only OpenAI provider for initial goal planning through the OpenAI Responses API.
+QLEARは、既定で決定的な模擬プランナーを使用します。そのため、APIキーがなくてもローカル開発と主要フロー全体を利用できます。加えて、初回計画の生成には、OpenAI Responses APIを呼び出すサーバー側のOpenAI連携も実装されています。
 
-When `AI_PROVIDER=openai` and `OPENAI_API_KEY` is configured, the initial plan request uses that provider with structured output and Zod validation. A missing key, provider error, or invalid response falls back to the deterministic planner. In the current implementation, replanning and smaller-step alternatives use the deterministic mock path, while the daily review is derived locally from completion data. The OpenAI path is therefore optional and does not power every AI-labelled surface yet.
+`AI_PROVIDER=openai`かつ`OPENAI_API_KEY`が設定されている場合、初回計画生成は、構造化出力とZod検証を伴うOpenAI連携を使用します。キーがない場合、APIの呼び出しに失敗した場合、または応答が不正な場合は、決定的な模擬プランナーに切り替わります。現在の実装では、再計画と小さな別ルートの提案は模擬プランナーを使い、日次の振り返りは完了データからローカルで算出します。つまり、OpenAI連携は任意であり、AIと表示されるすべての画面を現在のOpenAI連携が処理しているわけではありません。
 
-## 🔁 Core Loop
+## 🔁 コアループ
 
 ```mermaid
 flowchart LR
-  A[Big Goal] --> B[Plan]
-  B --> C[Boss]
-  C --> D[3 Quests]
-  D --> E[Smash / Clear]
-  E --> F[Boss Damage]
-  F --> G[XP / Combo / Title]
-  G --> H[Review / Replan]
+  A[大きな目標] --> B[計画]
+  B --> C[ボス]
+  C --> D[3つのクエスト]
+  D --> E[集中・完了]
+  E --> F[ボスへのダメージ]
+  F --> G[経験値・コンボ・称号]
+  G --> H[振り返り・再計画]
   H --> D
 ```
 
-## 🧱 Architecture
+## 🧱 アーキテクチャ
 
-QLEAR is one Next.js App Router application. Domain data stays in browser IndexedDB; only optional OpenAI planning crosses a server route boundary.
+QLEARは、1つのNext.js App Routerアプリケーションです。アプリのデータはブラウザのIndexedDBへ保存し、OpenAIを使う計画生成はサーバーのAPI経由で行います。
 
 ```mermaid
 flowchart TD
-  U[User] --> UI[Next.js App Router + React UI]
+  U[利用者] --> UI[Next.js App Router + React UI]
   UI --> C[AppProvider]
   C --> R[LocalQlearRepository]
   R --> D[(Dexie / IndexedDB)]
-  UI --> B[Browser planning client]
+  UI --> B[ブラウザの計画生成処理]
   B --> A[/POST /api/ai/plan/]
   A --> S{AI_PROVIDER}
-  S --> M[Deterministic mock planner]
-  S --> O[OpenAI provider]
-  B -. request failure .-> M
-  O -. missing key or invalid response .-> M
+  S --> M[同じ入力に同じ結果を返す模擬プランナー]
+  S --> O[OpenAI連携]
+  B -. リクエスト失敗 .-> M
+  O -. キー未設定・応答不正 .-> M
 ```
 
-Completion is committed transactionally before the visual sequence begins: quest status, Boss HP, completion event, rewards, and title state are persisted together. The OpenAI SDK and API key remain on the server side.
+完了処理では、演出が始まる前にクエストの状態、ボスのHP、完了記録、報酬、称号を1つのトランザクションで保存します。OpenAI SDKとAPIキーはサーバー側の外へ出しません。
 
-## 🛠 Tech Stack
+## 🛠 技術スタック
 
-| Area | Technology |
+| 分類 | 技術 |
 | --- | --- |
-| Framework and UI | Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4 |
-| Client state | React Context for application data, Zustand for ephemeral UI state |
-| Validation | Zod 4 |
-| Persistence | Dexie 4 over browser IndexedDB |
-| AI | Deterministic mock planner; optional server-only OpenAI provider and Responses API integration |
-| Testing | Vitest, Testing Library, fake-indexeddb, Playwright |
-| Deployment | Vercel |
-| Tooling | pnpm, ESLint, PostCSS |
+| フレームワーク・画面 | Next.js 16 App Router、React 19、TypeScript、Tailwind CSS 4 |
+| 画面の状態管理 | アプリのデータ用のReact Context、短期的な画面の状態用のZustand |
+| 入力検証 | Zod 4 |
+| データ保存 | ブラウザのIndexedDB上のDexie 4 |
+| AI | 同じ入力に同じ結果を返す模擬プランナー、サーバー側での任意のOpenAI Responses API連携 |
+| テスト | Vitest、Testing Library、fake-indexeddb、Playwright |
+| 公開先 | Vercel |
+| 開発ツール | pnpm、ESLint、PostCSS |
 
 <a id="quickstart"></a>
 
-## 🚀 Getting Started
+## 🚀 はじめ方
 
-### Prerequisites
+### 必要環境
 
-- Node.js 20.9 or later (required by the installed Next.js version)
-- pnpm 11.16.0 (pinned in `package.json`)
+- Node.js 20.9以上（導入済みのNext.jsの要件）
+- pnpm 11.16.0（`package.json`で固定）
 
-### Install and run
+### インストールと起動
 
 ```bash
 pnpm install
 ```
 
-Create your local environment file:
+ローカル用の環境設定ファイルを作成します。
 
 ```bash
 # macOS / Linux
@@ -191,82 +189,82 @@ cp .env.example .env.local
 Copy-Item .env.example .env.local
 ```
 
-Start the development server:
+開発サーバーを起動します。
 
 ```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The example configuration uses mock mode, so no API key is needed.
+[http://localhost:3000](http://localhost:3000)を開きます。サンプル設定は模擬プランナーモードのため、APIキーは不要です。
 
-## 🔐 Environment Variables
+## 🔐 環境変数
 
-Only the variables present in [`.env.example`](./.env.example) are required or supported for normal local configuration.
+通常のローカル設定で使用する環境変数は、[`.env.example`](./.env.example)に存在するものだけです。
 
-| Variable | Purpose |
+| 変数 | 役割 |
 | --- | --- |
-| `AI_PROVIDER` | Selects the initial-plan provider. `openai` enables the OpenAI path; any other value uses the deterministic mock. The example defaults to `mock`. |
-| `OPENAI_API_KEY` | Server-only credential for the optional OpenAI provider. It may remain blank in mock mode. |
-| `OPENAI_MODEL` | Model identifier passed to the OpenAI Responses API when the OpenAI provider is enabled. |
-| `NEXT_PUBLIC_FAST_MODE` | When `true`, shortens the staged setup animation; useful for fast local or automated flows. |
+| `AI_PROVIDER` | 初回計画の生成方法を選択します。`openai`でOpenAI連携を有効にし、それ以外は再現可能な模擬プランナーを使います。サンプルの既定値は`mock`です。 |
+| `OPENAI_API_KEY` | 任意のOpenAI連携で使うサーバー側の認証情報です。模擬プランナーモードでは空欄のままで構いません。 |
+| `OPENAI_MODEL` | OpenAI連携を有効にしたとき、Responses APIへ渡すモデルIDです。 |
+| `NEXT_PUBLIC_FAST_MODE` | `true`の場合、初期設定の段階的な演出を短縮します。高速なローカル確認や自動テスト向けです。 |
 
-Do not commit real credentials. If OpenAI configuration is incomplete or the provider fails, initial planning falls back to the mock planner.
+実際の認証情報はコミットしないでください。OpenAIの設定が不足している場合やAPI呼び出しに失敗した場合、初回計画は模擬プランナーに切り替わります。
 
-## ⌨️ Available Scripts
+## ⌨️ 主なコマンド
 
-| Command | Purpose |
+| コマンド | 役割 |
 | --- | --- |
-| `pnpm dev` | Start the Next.js development server. |
-| `pnpm build` | Create a production build. |
-| `pnpm start` | Serve an existing production build. |
-| `pnpm lint` | Run ESLint across the repository. |
-| `pnpm typecheck` | Run strict TypeScript checking without emitting files. |
-| `pnpm test` | Run the Vitest unit, component, and integration suites once. |
-| `pnpm test:watch` | Run Vitest in watch mode. |
-| `pnpm test:e2e` | Build the app and run the Playwright Chromium end-to-end suite. |
+| `pnpm dev` | Next.jsの開発サーバーを起動します。 |
+| `pnpm build` | 本番ビルドを作成します。 |
+| `pnpm start` | 作成済みの本番ビルドを配信します。 |
+| `pnpm lint` | リポジトリ全体にESLintを実行します。 |
+| `pnpm typecheck` | ファイルを出力せず、TypeScriptの厳密な型検査を実行します。 |
+| `pnpm test` | Vitestの単体・コンポーネント・結合テストを1回実行します。 |
+| `pnpm test:watch` | Vitestを変更監視モードで起動します。 |
+| `pnpm test:e2e` | アプリをビルドし、PlaywrightでChromiumのE2Eテストを実行します。 |
 
-## 🗂 Project Structure
+## 🗂 プロジェクト構成
 
 ```text
 src/
-├── app/        # App Router pages, layout, global styles, and API route
-├── frontend/   # UI components, feature modules, and client state
-├── backend/    # AI providers, IndexedDB schema, and repository layer
-└── shared/     # Domain logic, types, validation, and utilities
+├── app/        # App Routerのページ、レイアウト、共通スタイル、API
+├── frontend/   # 画面部品、機能、画面の状態管理
+├── backend/    # AI連携、IndexedDBのスキーマ、保存処理
+└── shared/     # 共通の処理、型、検証、補助関数
 
 tests/
-├── unit/       # Pure domain, validation, and component tests
-├── integration/ # Repository and IndexedDB behavior
-└── e2e/        # Playwright product flows and layout regression tests
+├── unit/       # ドメイン処理・入力検証・画面部品の単体テスト
+├── integration/ # データ保存処理とIndexedDBの結合テスト
+└── e2e/        # Playwrightの操作フローとレイアウトの回帰テスト
 ```
 
-See [Project Structure](./docs/PROJECT_STRUCTURE.md) for the detailed layout and [Documentation](./docs/README.md) for the architecture, data model, AI, design, requirements, and testing notes.
+詳細は[プロジェクト構成](./docs/PROJECT_STRUCTURE.md)、設計・データモデル・AI・要件・テストの資料は[ドキュメント一覧](./docs/README.md)を参照してください。
 
-## 🧠 Engineering Decisions
+## 🧠 設計上の判断
 
-**Exactly three quests**  
-The constraint makes a plan reviewable and keeps the active route small enough to act on.
+**クエストを必ず3件にする**  
+計画を確認しやすくし、取り組める量に保つためです。
 
-**AI without a chatbot**  
-QLEAR turns planning output into editable product objects so the user stays in control.
+**編集できるクエストとして提示する**  
+AIの出力を編集可能な項目へ変換し、最終的な主導権を利用者側に残します。
 
-**Local-first persistence**  
-Personal use remains useful without registration or external data storage; export/import provides manual portability.
+**ブラウザ内で保存する**  
+登録や外部保存なしでも個人利用を成立させ、読み込み・書き出しで手動の持ち運びを可能にします。
 
-**Boss HP as an abstraction**  
-One large goal becomes a visible quantity that decreases with completed work.
+**ボスのHPで進捗を表す**  
+大きな目標を、完了した仕事によって減っていく量へ置き換えます。
 
-**Completion as a transaction and an interaction**  
-Durable state is written before Digital Crumple begins, so animation failure cannot erase progress.
+**完了をトランザクションと画面上の演出の両方として扱う**  
+紙を丸める完了演出より先にデータを保存するため、演出中に問題が起きても進捗は残ります。
 
-**Mock plus provider boundary**  
-Deterministic output keeps development and tests reproducible while preserving a server-only path for optional provider-backed planning.
+**模擬プランナーと外部AI連携を分ける**  
+開発とテストを再現可能にしつつ、任意の外部AIによる計画支援をサーバー側で追加できる構造にしています。
 
-## 🧪 Testing & Quality
+## 🧪 テストと品質
 
-Vitest covers deterministic planning, schema validation, scheduling, gamification, accessible progress output, and IndexedDB repository transactions. Playwright covers the desktop landing experience, the Goal → Plan → CLEAR flow, reload persistence, alternatives, replanning, settings, and browser console failures.
+Vitestでは、計画生成の再現性、入力検証、日程、報酬、進捗表示、IndexedDBへの保存処理を確認します。Playwrightでは、デスクトップのトップ画面、目標設定からクエスト完了までの操作、再読み込み後のデータ保持、代替案、再計画、設定、ブラウザのコンソールエラーを確認します。
 
-Run the full local quality gate with:
+ローカルで一連の検査を実行するコマンドは次のとおりです。
 
 ```bash
 pnpm lint
@@ -276,27 +274,27 @@ pnpm test:e2e
 pnpm build
 ```
 
-## 🗺 Roadmap
+## 🗺 ロードマップ
 
 > [!IMPORTANT]
-> These items were considered before development stopped and remain unimplemented.
+> 以下は開発停止前に検討していた未実装の項目です。
 
-- Extend provider-backed adaptive planning to replanning, alternatives, and review
-- Add optional authentication and cloud sync while preserving a local-first mode
-- Explore shared goals or team workflows after the personal workflow is mature
-- Expand review analytics and longer-term progress views
-- Add a concise GIF or interactive product walkthrough
+- 外部AIによる計画支援を再計画、代替案、振り返りまで拡張
+- ブラウザ内保存を維持した、任意の認証とクラウド同期
+- 個人向けの機能を整えた後に目標の共有やチーム利用を検討
+- 振り返りの分析と長期的な進捗表示の拡充
+- 短いGIFまたは操作を体験できるガイドの追加
 
-## 👤 Author
+## 👤 作者
 
-| | |
+| 項目 | 内容 |
 | --- | --- |
 | **GitHub** | [@zahin-dev](https://github.com/zahin-dev) |
-| **Status** | 3rd-year undergraduate student |
-| **Faculty** | Faculty of Informatics |
-| **Department** | Department of Information Systems |
-| **Expected Graduation** | 2028 |
+| **学年** | 学部3年 |
+| **学部** | 情報学部 |
+| **学科** | 情報システム学科 |
+| **卒業予定** | 2028年卒（28卒） |
 
-## 📄 License
+## 📄 ライセンス
 
-QLEAR is available under the [MIT License](./LICENSE).
+QLEARは[MITライセンス](./LICENSE)のもとで公開されています。

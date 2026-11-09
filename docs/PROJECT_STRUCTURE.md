@@ -80,7 +80,6 @@ qlear-ai/
 ├── pnpm-lock.yaml
 ├── pnpm-workspace.yaml
 ├── postcss.config.mjs
-├── README.ja.md
 ├── README.md
 ├── tsconfig.json
 └── vitest.config.ts
@@ -109,7 +108,6 @@ Generated output such as `.next/`, coverage, Playwright reports, logs, and TypeS
 | `AGENTS.md` | AI Coding AgentがこのProjectで守るルールです。 |
 | `LICENSE` | QLEARへ適用するMIT Licenseの条件です。 |
 | `README.md` | QLEARの概要、構造、起動方法を案内する入口です。 |
-| `README.ja.md` | Main READMEと構造を揃えた日本語版です。 |
 | `.vscode/settings.json` | QLEARをVS Codeで開いたときのExplorer表示だけを整理します。 |
 
 ## Where Should New Code Go?
