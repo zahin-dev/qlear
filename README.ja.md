@@ -7,7 +7,7 @@
 
   **AIが分ける。あなたが終わらせる。**
 
-  ポートフォリオプロジェクト — 開発中 · 個人利用を優先 · ローカルファースト
+  ポートフォリオプロジェクト · 個人利用を優先 · ローカルファースト
 
   [English](./README.md) | **日本語**
 
@@ -16,6 +16,27 @@
   🎯 **3つのQuestに集中** · 🤖 **AIによる計画支援** · 💾 **ローカルファースト**
 </div>
 
+<p align="center">
+  <a href="#development">開発・公開状況</a> ·
+  <a href="#screenshots">プレビュー</a> ·
+  <a href="#features">機能</a> ·
+  <a href="#quickstart">はじめ方</a>
+</p>
+
+---
+
+<a id="development"></a>
+
+## 開発・公開状況
+
+| 項目 | 内容 |
+| --- | --- |
+| 開発開始 | 2025年4月 |
+| MVP完成 | 2025年6月 |
+| 現在の状況 | 開発停止 |
+| GitHub初回公開 | 2026年8月 |
+| 公開デモ | [QLEARを開く](https://qlear.vercel.app/) |
+
 ## 👾 QLEARとは
 
 QLEARは、大きな個人目標を攻略するためのQuest型生産性アプリです。1つの目標を編集可能な3つのQuestへ変換し、一度に1つへ集中できる状態をつくり、完了するたびにBossへDamageを与えて進捗を見える形にします。
@@ -23,6 +44,8 @@ QLEARは、大きな個人目標を攻略するためのQuest型生産性アプ�
 原点にあるのは、紙のToDoリストで最後の項目にチェックを入れ、その紙を丸めたときの心地よさです。多くのデジタルToDoアプリにはチェックボックスはあっても、仕事を終えた実感までは残りにくい。QLEARは、Digital Crumpleという完了演出、目に見える進捗、小さな報酬を通して、その感覚をデジタルに取り戻そうとしています。
 
 現在のQLEARは個人利用を前提にしたポートフォリオプロジェクトで、Vercel上に公開デモがあります。アカウントやクラウド同期は不要で、主要データは各利用者のブラウザ内に保存されます。
+
+<a id="screenshots"></a>
 
 ## 🖼 プレビュー
 
@@ -57,6 +80,8 @@ QLEARは、大きな個人目標を攻略するためのQuest型生産性アプ�
 - **進捗を目で確認できる。** 難易度がDamageへ反映され、CLEARのたびにBoss HPが減ります。
 - **実用的なローカルファースト。** 主要データをブラウザ内に保存し、検証済みJSONとして書き出し・復元できます。
 - **AIは作業の裏側に置く。** チャット画面ではなく、Quest、見積もり、提案理由という形で計画を返します。
+
+<a id="features"></a>
 
 ## 🎯 機能
 
@@ -138,6 +163,8 @@ flowchart TD
 | Testing | Vitest、Testing Library、fake-indexeddb、Playwright |
 | Deployment / Hosting | Vercel |
 | Tooling | pnpm、ESLint、PostCSS |
+
+<a id="quickstart"></a>
 
 ## 🚀 はじめ方
 
@@ -252,7 +279,7 @@ pnpm build
 ## 🗺 ロードマップ
 
 > [!IMPORTANT]
-> 以下は現在実装済みの機能ではなく、今後の候補です。
+> 以下は開発停止前に検討していた未実装の項目です。
 
 - Provider-backedなAdaptive PlanningをReplan、Alternative、Reviewまで拡張
 - Local-first Modeを維持した、任意のAuthenticationとCloud Sync

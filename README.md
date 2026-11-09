@@ -7,7 +7,7 @@
 
   **AI breaks it down. You clear it.**
 
-  Portfolio project — actively developed · Personal-use first · Local-first
+  Portfolio project · Personal-use first · Local-first
 
   **English** | [日本語](./README.ja.md)
 
@@ -16,6 +16,27 @@
   🎯 **3-Quest Focus** · 🤖 **AI-assisted Planning** · 💾 **Local-first**
 </div>
 
+<p align="center">
+  <a href="#development">Development and availability</a> ·
+  <a href="#screenshots">Preview</a> ·
+  <a href="#features">Features</a> ·
+  <a href="#quickstart">Getting Started</a>
+</p>
+
+---
+
+<a id="development"></a>
+
+## Development and availability
+
+| Milestone | Details |
+| --- | --- |
+| Development started | April 2025 |
+| MVP completed | June 2025 |
+| Current status | Development stopped |
+| First GitHub publication | August 2026 |
+| Live demo | [Open QLEAR](https://qlear.vercel.app/) |
+
 ## 👾 What is QLEAR?
 
 QLEAR is a goal attack / quest productivity app. It turns one large personal goal into an editable three-quest route, helps you focus on one quest at a time, and makes every completion visibly reduce the goal through Boss damage.
@@ -23,6 +44,8 @@ QLEAR is a goal attack / quest productivity app. It turns one large personal goa
 The idea came from a small but memorable moment: checking the last item on a paper ToDo list, then crumpling the page, felt genuinely satisfying. Most digital task apps preserve the checkbox but lose that sense of closure. QLEAR explores how to bring it back through a deliberate Digital Crumple interaction, visible progress, and lightweight rewards.
 
 QLEAR is currently a portfolio project built for personal use with a public Vercel demo. It requires no account or cloud sync, and core data remains local to each visitor's browser.
+
+<a id="screenshots"></a>
 
 ## 🖼 Preview
 
@@ -57,6 +80,8 @@ QLEAR is currently a portfolio project built for personal use with a public Verc
 - **Progress should be visible.** Difficulty maps to damage, and every CLEAR reduces Boss HP.
 - **Local-first should be practical.** Core data lives in the browser and can be exported or restored as validated JSON.
 - **AI should stay behind the work.** Planning appears as structured quests, estimates, and reasoning rather than a chat window.
+
+<a id="features"></a>
 
 ## 🎯 Features
 
@@ -138,6 +163,8 @@ Completion is committed transactionally before the visual sequence begins: quest
 | Testing | Vitest, Testing Library, fake-indexeddb, Playwright |
 | Deployment | Vercel |
 | Tooling | pnpm, ESLint, PostCSS |
+
+<a id="quickstart"></a>
 
 ## 🚀 Getting Started
 
@@ -252,7 +279,7 @@ pnpm build
 ## 🗺 Roadmap
 
 > [!IMPORTANT]
-> The following items are future work and are not current functionality.
+> These items were considered before development stopped and remain unimplemented.
 
 - Extend provider-backed adaptive planning to replanning, alternatives, and review
 - Add optional authentication and cloud sync while preserving a local-first mode
