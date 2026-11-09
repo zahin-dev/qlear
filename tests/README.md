@@ -1,7 +1,7 @@
-# Tests
+# テスト
 
-- `unit/`: pure functions, deterministic AI and scheduling logic, validation, gamification, and isolated components. Use `*.test.ts` or `*.test.tsx`.
-- `integration/`: repository, IndexedDB, and multi-module behavior. Use `*.test.ts` or `*.test.tsx`.
-- `e2e/`: Playwright user flows and browser-level regression checks. Use `*.spec.ts`.
+- `unit/`では、副作用のない関数、同じ入力に同じ結果を返すAI処理と日程計算、入力検証、報酬や進捗の仕組み、画面部品を個別にテストします。ファイル名には`*.test.ts`または`*.test.tsx`を使います。
+- `integration/`では、データの読み書き、IndexedDB、複数モジュールが連携したときの動作をテストします。ファイル名には`*.test.ts`または`*.test.tsx`を使います。
+- `e2e/`では、Playwrightで利用者の操作手順をたどり、ブラウザ上で回帰がないかを確認します。ファイル名には`*.spec.ts`を使います。
 
-`setup.ts` is the shared Vitest environment setup referenced by `vitest.config.ts`. Playwright reports, screenshots, and temporary test output are generated artifacts and do not belong in this folder.
+`setup.ts`は、`vitest.config.ts`が参照する共通のテスト環境設定です。Playwrightのレポート、スクリーンショット、一時的なテスト出力は、生成物としてこのフォルダの外で管理します。

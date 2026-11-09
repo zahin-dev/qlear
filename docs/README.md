@@ -1,23 +1,23 @@
-# Documentation
+# ドキュメント
 
-## Requirements
+## 要件
 
-- [Product Requirements](requirements/PRD.md)
+- [製品要件](requirements/PRD.md)
 
-## Architecture
+## アーキテクチャ
 
-- [System Architecture](architecture/ARCHITECTURE.md)
-- [Data Model](architecture/DATA_MODEL.md)
-- [Project Structure](PROJECT_STRUCTURE.md)
+- [システム構成](architecture/ARCHITECTURE.md)
+- [データモデル](architecture/DATA_MODEL.md)
+- [プロジェクト構成](PROJECT_STRUCTURE.md)
 
-## Design
+## デザイン
 
-- [Design System](design/DESIGN_SYSTEM.md)
+- [デザインシステム](design/DESIGN_SYSTEM.md)
 
 ## AI
 
-- [AI Orchestration](ai/AI_ORCHESTRATION.md)
+- [AI処理の設計](ai/AI_ORCHESTRATION.md)
 
-## Testing
+## テスト
 
-- [Test Plan](testing/TEST_PLAN.md)
+- [テスト計画](testing/TEST_PLAN.md)
